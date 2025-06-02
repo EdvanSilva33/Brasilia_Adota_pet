@@ -1,0 +1,195 @@
+/* Estilos globais para o site */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o Hero */
+.hero {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+  margin-bottom: 30px;
+}
+
+/* Estilos para seções */
+.info-section, .gallery-section, .form-section {
+  padding: 50px 0;
+}
+
+.gallery-section {
+  background-color: #f8f9fa;
+}
+
+/* Estilos para cards de animais */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Estilos para formulários */
+.adoption-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.adoption-form fieldset {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.adoption-form legend {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.adoption-form .form-group {
+  margin-bottom: 15px;
+}
+
+.adoption-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.adoption-form input,
+.adoption-form select,
+.adoption-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.adoption-form .form-group-inline {
+  display: flex;
+  gap: 15px;
+}
+
+.adoption-form .form-group-inline > div {
+  flex: 1;
+}
+
+.adoption-form .form-submit-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.adoption-form button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.adoption-form button:hover {
+  background-color: #218838;
+}
+
+/* Estilos para slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.slide-text-content {
+  padding: 15px;
+}
+
+/* Estilos para alertas */
+.alert {
+  margin-bottom: 15px;
+}
+
+/* Estilos para footer */
+footer {
+  margin-top: 50px;
+}
+
+/* Estilos para links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para botões */
+.btn {
+  cursor: pointer;
+}
+
+/* Estilos para campos inválidos */
+.invalid {
+  border-color: #dc3545 !important;
+  background-color: #fff8f8;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .adoption-form .form-group-inline {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .hero {
+    padding: 30px 0;
+  }
+  
+  .prev, .next {
+    padding: 8px;
+  }
+}
