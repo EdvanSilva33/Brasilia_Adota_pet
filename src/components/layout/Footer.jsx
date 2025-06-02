@@ -27,18 +27,18 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li><a href="https://youtu.be/UdrMj_A3_xE?si=OTc51wJ0ws48tlos" target='_blank' className="text-white">Nossa História</a></li>
               <li><a href="https://youtu.be/F2QxAZwmKN8?si=D5Y8m38XjH_usZ9c" target='_blank' className="text-white">Nossa Equipe</a></li>
-              <li><a href="/Pdf?parcerias.pdf" className="text-white">Transparência</a></li>
-              <li><a href="/Pdf/doacao.pdf" className="text-white">Termos de Adoção</a></li>
-              <li><a href="/Pdf/termo_privacidade_adocao.pdf" className="text-white">Política de Privacidade</a></li>
+              <li><a href="/Pdf?parcerias.pdf" target='_blank' className="text-white">Transparência</a></li>
+              <li><a href="/Pdf/doacao.pdf" target='_blank' className="text-white">Termos de Adoção</a></li>
+              <li><a href="/Pdf/termo_privacidade_adocao.pdf" target='_blank' className="text-white">Política de Privacidade</a></li>
             </ul>
           </div>
           <div className="col-md-4 mb-3">
             <h5>Como Ajudar</h5>
             <ul className="list-unstyled">
-              <li><a href="/Pdf/processo_adocao.pdf" className="text-white">Processo de Adoção</a></li>
-              <li><a href="/Pdf/voluntarios.pdf" className="text-white">Seja um Voluntário</a></li>
+              <li><a href="/Pdf/processo_adocao.pdf" target='_blank' className="text-white">Processo de Adoção</a></li>
+              <li><a href="/Pdf/voluntarios.pdf" target='_blank' className="text-white">Seja um Voluntário</a></li>
               <li><a href="https://www.facebook.com/doacoesanimaisbsb/?locale=pt_BR" target="_blank" rel="noopener noreferrer" className="text-white">Faça uma Doação</a></li>
-              <li><a href="/Pdf/apadrinhamento.pdf" className="text-white">Apadrinhe um Animal</a></li>
+              <li><a href="/Pdf/apadrinhamento.pdf" target='_blank' className="text-white">Apadrinhe um Animal</a></li>
               <li><a href="https://www.doapet.com.br/" target="_blank" rel="noopener noreferrer" className="text-white">Parcerias</a></li>
             </ul>
           </div>

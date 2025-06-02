@@ -22,7 +22,7 @@ const ResgateGatinhoPage = () => {
         />
       </div>
 
-      <div className="rescue-text">
+      <div className="rescue-text container" style={{ padding: '20px', backgroundColor: '#f9f9f9', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
         <h2 style={{ color: '#333', textAlign: 'center', marginBottom: '20px', fontSize: '1.8em' }}>Um Miado Tímido na Noite Fria</h2>
         <p style={{ textAlign: 'justify', marginBottom: '15px', color: '#555', lineHeight: '1.7', fontSize: '1.1em' }}>
           Em uma viela escura e esquecida pela cidade, um som quase imperceptível cortava o silêncio gélido da madrugada. Era Fagulha, um pequeno gatinho de pelagem cinza e olhos assustados, encolhido sob uma caixa de papelão rasgada. O abandono havia deixado marcas profundas em seu corpinho frágil, mas em seus olhos ainda brilhava uma pequena chama de esperança, daí o nome Fagulha.
