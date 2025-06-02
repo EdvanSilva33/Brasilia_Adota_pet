@@ -79,11 +79,11 @@ const Footer = () => {
               <input 
                 type="email" 
                 name="email" 
-                className="form-control form-control-sm mr-2" 
+                className="form-control form-control-sm mr-2 mb-2" 
                 placeholder="Seu e-mail" 
                 required 
               />
-              <button type="submit" className="btn btn-primary btn-sm">Inscrever</button>
+              <button type="submit" className="btn btn-primary btn-sm ">Inscrever</button>
             </form>
           </div>
         </div>

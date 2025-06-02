@@ -49,7 +49,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg ">{ /*Navbar com fundo transparente**/}
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">{ /*Navbar com fundo transparente**/}
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img 
@@ -60,7 +60,7 @@ const Navbar = () => {
            
           </Link>
           <button 
-            className="navbar-toggler" 
+            className="navbar-toggler " 
             type="button" 
             data-toggle="collapse" 
             data-target="#navbarNav" 
@@ -71,7 +71,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav ml-auto ">
               <li className="nav-item">
                 <a 
                   className="nav-link" 
@@ -91,7 +91,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/como-ajudar">Como Ajudar</Link>
+                <Link className="nav-link " to="/como-ajudar">Como Ajudar</Link>
               </li>
               <li className="nav-item">
                 <a 
@@ -103,7 +103,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link btn btn-success ml-2" to="/formulario-adocao">Quero Adotar!</Link>
+                <Link className="nav-link btn btn-success ml-2 text-white" to="/formulario-adocao">Quero Adotar!</Link>
               </li>
             </ul>
             <form className="form-inline ml-2" onSubmit={handleSearch}>
